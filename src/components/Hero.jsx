@@ -5,18 +5,18 @@ const Hero = () => {
     <div>
       <div className="relative">
         <img
-          className="w-full h-[700px]"
+          className="w-full h-[700px] opacity-95"
           src="./images/Background.jpeg"
           alt=""
         />
-        <div className="absolute top-32 left-60  ">
-          <p className="text-4xl font-bold text-white">
+        <div className="absolute top-0 lg:top-32 lg:left-60  ">
+          <p className="lg:text-4xl font-bold text-white">
             Personal & Bussiness Loans
           </p>
-          <p className="text-4xl font-bold text-white">
+          <p className="lg:text-4xl font-bold text-white">
             Starting from $2.5k & $25k
           </p>
-          <p className="text-xl mt-5 text-white">
+          <p className="lg:text-xl mt-5 text-white">
             Our Superfast Process makes this your BEST Loan Option.
           </p>
 
