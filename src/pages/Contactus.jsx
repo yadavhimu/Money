@@ -6,7 +6,7 @@ const Contactus = () => {
       <div className='bg-black h-20 flex items-center justify-center '>
         <p className='text-4xl font-bold  text-white '>Contact Us</p>
       </div>
-      <div className='lg:px-[7vw] flex mt-20'>
+      <div className='lg:px-[7vw] lg:flex mt-20'>
         <div className='w-full'>
         <p className='text-4xl text-green-950 flex'>You find us at</p>
         <p className=' text-green-950 mt-20'>EMAIL</p>
@@ -17,10 +17,10 @@ const Contactus = () => {
         <p className=' text-green-950 text-xl'>532 W 53rd St New York, NY,10019,US </p>
         </div>
         <div className='w-full'>
-         <p className='text-4xl text-green-950 flex'>Let's get in touch</p>
+         <p className='text-4xl text-green-950 flex lg:mt-0 mt-10'>Let's get in touch</p>
          <div>
           <form>
-          <div>
+          <div className='mt-8'>
                 <p className="mt-5 text-lg mb-2">Name</p>
                 <input
                   type="Text"

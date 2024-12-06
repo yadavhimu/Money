@@ -5,12 +5,12 @@ const Aboutus = () => {
     <div>
       <div className="relative">
         <img className="lg:h-[400px] w-full" src="./images/group.jpg" alt="" />
-        <div className="absolute lg:top-40 lg:left-40">
-          <p className="text-5xl text-gray-800">About Us</p>
+        <div className="absolute top-28 lg:top-40 lg:left-40">
+          <p className="text-5xl text-white lg:text-gray-800">About Us</p>
         </div>
       </div>
 
-      <div className="lg:px-[7vw] flex mt-16">
+      <div className="lg:px-[7vw] lg:flex mt-16">
         <div className="mt-10">
           <img src="./images/laptop.jpg" alt="" />
         </div>
@@ -43,7 +43,7 @@ const Aboutus = () => {
       </div>
 
       <div className="flex w-full bg-blue-900">
-        <div className="flex lg:px-[7vw] ">
+        <div className="lg:flex lg:px-[7vw] ">
           <div className="w-full">
             <p className="text-4xl font-bold text-white flex justify-center ">
               Our Mission

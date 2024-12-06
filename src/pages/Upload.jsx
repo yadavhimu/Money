@@ -6,7 +6,7 @@ const Upload = () => {
       <div className='mt-10'>
         <p className='text-4xl font-medium flex justify-center text-green-700'>Upload Your Document</p>
       </div>
-      <div className='w-[450px] mt-10'>
+      <div className='lg:w-[450px] mt-10'>
         <form>
         <div>
                 <p className="mt-5 text-lg mb-2 font-medium text-gray-600">Full Name 

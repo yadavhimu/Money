@@ -3,7 +3,7 @@ import React from 'react'
 const Applynow = () => {
   return (
     <div className="lg:px-[7vw]">
-      <div className='w-[450px] mt-20'>
+      <div className='lg:w-[450px] mt-20'>
         <form>
         <div >
                 <p className="mb-2 text-lg font-medium text-gray-600">Do You have Loan Approval ID Number? *</p>

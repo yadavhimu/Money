@@ -15,7 +15,7 @@ const Footer = () => {
             </ul>
         </div>
         <div>
-            <p className='text-4xl font-bold text-orange-600'>Money</p>
+            <Link to='/'><p className='text-4xl font-bold text-orange-600'>Money</p></Link>
         </div>
       </div>
       <hr className='border-0 lg:border-1 lg:ml-40 w-[80%]'/>
@@ -27,7 +27,7 @@ const Footer = () => {
           <p className='  text-white'>info@moneycapital.com</p>
         </div>
         <div className='lg:px-[7vw] p-5'>
-          <p className='text-2xl font-medium text-white'> Upload</p>
+         <Link to='/upload'> <p className='text-2xl font-medium text-white'> Upload</p></Link>
         </div>
       </div>
       <hr className='border-b-1 '/>
