@@ -7,6 +7,10 @@ import Applynow from './pages/Applynow'
 import Contactus from './pages/Contactus'
 import Upload from './pages/Upload'
 import Aboutus from './pages/Aboutus'
+import Question from './pages/Question'
+import Privacy from './pages/Privacy'
+import Term from './pages/Term'
+import Consent from './pages/Consent'
 
 const App = () => {
   return (
@@ -18,6 +22,10 @@ const App = () => {
         <Route path='/contactus' element={<Contactus/>} />
         <Route path='/upload' element={<Upload/>} />
         <Route path='/aboutus' element={<Aboutus/>} />
+        <Route path='/question' element={<Question/>} />
+        <Route path='/privacy' element={<Privacy/>} />
+        <Route path='/term' element={<Term/>} />
+        <Route path='/consent' element={<Consent/>} />
       </Routes>
       <Footer/>
     </div>

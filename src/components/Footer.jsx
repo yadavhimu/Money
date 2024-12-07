@@ -37,10 +37,10 @@ const Footer = () => {
         </div>
         <div className='mt-5'>
             <ul className='lg:flex gap-3'>
-                <li>F&Q</li>
-                <li>Privacy Policy</li>
-                <li>T&C</li>
-                <li>e-Consent</li>
+                <Link to='/question'><li>F&Q</li></Link>
+                <Link to='/privacy'><li>Privacy Policy</li></Link>
+                <Link to='/term'><li>T&C</li></Link>
+                <Link to='/consent'><li>e-Consent</li></Link>
             </ul>
         </div>
       </div>
