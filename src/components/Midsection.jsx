@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Midsection = () => {
   return (
@@ -20,9 +21,9 @@ const Midsection = () => {
             or for remodeling the kitchen.{" "}
           </p>
 
-          <button className="w-36 rounded-xl bg-yellow-500 h-10 mt-5 text-black text-lg font-medium">
+          <Link to='/contact'><button className="w-36 rounded-xl bg-yellow-500 h-10 mt-5 text-black text-lg font-medium">
             Get Started
-          </button>
+          </button></Link>
         </div>
         <div className="w-full">
           <div className="border-2 border-gray-700 shadow-2xl  ">
